@@ -7,7 +7,7 @@ const ProjectCard = ({ image, title, description, techStack, link }) => {
             <img src={image} alt={title} />
             <div className="card-body">
                 <h6>{title}</h6>
-                <p className='text-[#ffffffeb] !text-sm !font-normal'>
+                <p className='text-[#ffffffeb] !text-sm !font-normal h-[230px]'>
                     {description}
                 </p>
                 <p className='!text-center py-1.5 text-[#ffffffeb]'><strong>Technology</strong></p>

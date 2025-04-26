@@ -196,7 +196,7 @@ html {
 
 .card {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 13px 0px;
-  min-height: 600px;
+  min-height: 640px;
   position: relative;
   width: 400px;
   border-radius: 10px;
