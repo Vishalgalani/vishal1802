@@ -52,17 +52,17 @@ const Experience = () => {
                     data-status="complete"
                     className="chakra-step__title css-1hoas8a"
                   >
-                    React.js Developer
+                    Full stack Developer
                   </h3>
                   <p
                     data-status="complete"
                     className="chakra-step__description css-1cphk1v"
                   >
-                    Mar 2024 - Mar 2025
+                    {/* Mar 2024 - Present */}
                   </p>
                   <p
                     data-status="complete"
-                    className="chakra-step__description css-17rvvdd"
+                    className="chakra-step__description css-17rvvdd mt-2"
                   >
                     PAUL & PAUL LAWYERS
                   </p>
@@ -70,10 +70,33 @@ const Experience = () => {
                     data-status="complete"
                     className="chakra-step__description css-y9i95k"
                   >
-                    Working in one of the famous and trending JavaScript Library
-                    React.js along with it's Framework React.js. Developing new
-                    Projects, working on front-end development and, maintaining
-                    and managing old projects.
+                    Working with one of the most popular JavaScript libraries, React.js, along with Node.js for backend development. I developed a web application and admin panel focused on managing lawyer-related data and services. My responsibilities included building front-end interfaces for creating and scheduling posts, displaying categorized lawyer listings on the dashboard, and developing contact forms for user interaction. On the backend, I implemented APIs for post scheduling, form handling, and integrated email services to allow administrators to receive user inquiries directly. Additionally, I ensured smooth user experience, secure data flow, and efficient communication between the frontend and backend systems.
+                  </p>
+
+                  <p
+                    data-status="complete"
+                    className="chakra-step__description css-17rvvdd mt-6"
+                  >
+                    ENBIOSIS WEB-APP
+                  </p>
+                  <p
+                    data-status="complete"
+                    className="chakra-step__description css-y9i95k"
+                  >
+                  I worked as a Frontend Developer, maintaining and enhancing the admin panel using React.js. My responsibilities included fixing critical bugs, improving the overall performance, and ensuring a smooth and user-friendly experience for admin users. I developed and integrated new frontend features into the existing codebase, ensuring consistency and high code quality. I also collaborated closely with backend developers to debug API issues and optimize data handling on the frontend.
+                  </p>
+
+                  <p
+                    data-status="complete"
+                    className="chakra-step__description css-17rvvdd mt-6"
+                  >
+                    Noorah Web-admin
+                  </p>
+                  <p
+                    data-status="complete"
+                    className="chakra-step__description css-y9i95k"
+                  >
+                   I developed the frontend of a web application and admin panel focused on managing lawyer-related data and client interactions. Using React.js, I built user interfaces that allow administrators to create and schedule posts, which are then displayed on the dashboard at the specified time. The dashboard shows categorized lawyer information and invites users to complete a contact form. I focused on building a responsive, user-friendly interface, integrating APIs for data handling, and ensuring smooth navigation and functionality across the application.
                   </p>
                 </div>
                 <div
