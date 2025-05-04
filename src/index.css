@@ -185,20 +185,20 @@ html {
   background: rgb(255, 0, 128);
 }
 
-.main {
+/* .main {
   align-items: center;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   font-family: sans-serif;
   justify-content: center;
-}
+} */
 
 .card {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 13px 0px;
   min-height: 640px;
   position: relative;
-  width: 400px;
+  max-width: 400px;
   border-radius: 10px;
   margin: 1.05rem;
   overflow: hidden;

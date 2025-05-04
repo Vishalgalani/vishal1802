@@ -52,7 +52,7 @@ const Projects = () => {
       id="projects"
       className="css-15awpur overflow-hidden border-t border-white/20"
     >
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 lg:py-8 sm:py-6 py-4">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 lg:py-8 sm:py-6 py-4 ">
         <div className="css-3m0ceo">
           <p className="chakra-text css-9x44go">My Projects</p>
         </div>
@@ -62,7 +62,7 @@ const Projects = () => {
           </h2>
         </div>
         <hr className="sc-iBkjds dzDijg" />
-        <section className="main">
+        <section className="main flex flex-col md:flex-row md:flex-nowrap md:overflow-x-auto space-y-4 md:space-y-0 md:space-x-4 justify-center items-center md:justify-center">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
